@@ -1,0 +1,117 @@
+# FILES REQUIRED TO BE LEFT UNTRACKED BY GIT
+
+*.pyc
+**/__pycache__/**
+**/node_modules/**
+**/.DS_STORE
+
+# Packages
+*.zip
+*.tar
+*.gz
+*.jar
+*.tgz
+
+# Binaries
+*.exe
+*.dll
+*.class
+*.so
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Operating system files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+*.lnk
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Caches and lock files
+pids
+.eslintcache
+.lock-wscript
+*.pid
+*.seed
+*.pid.lock
+
+# Node and NPM
+node_modules
+jspm_packages
+.node_repl_history
+.npm
+.grunt
+
+# Tests and code coverage
+coverage
+
+# IDE files
+.vs
+.code
+typings
+.ipynb_checkpoints/
+
+# Certificates
+# Never, ever, ever, ever check this in to git. No exceptions.
+.csr
+.cer
+.der
+.crt
+.p7b
+.p7r
+.spc
+.pfx
+.p12
+.pem
+.key
+code/magna-ui/.angular/*
+# code/magna-ui/src/app/environments/environment.ts
+# code/magna-ui/src/app/environments/environment.prod.ts
+# code/magna-ui/src/app/environments/environment.prod.ts
+# code/magna-ui/src/app/environments/environment.ts
+
+
+# Ignore all files and directories inside .idea folder
+.idea/
+
+# Ignore specific files within the .idea folder
+.idea/inspectionProfiles/
+.idea/misc.xml
+.idea/ml-backend.iml
+.idea/vcs.xml
+.idea/workspace.xml
+
+
+# Optional: Add common ignores for Python and FastAPI projects (if applicable)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+venv/
+.env
+
+# Ignore logs
+*.log
+
+# Ignore database
+*.sqlite3
+
+# Ignore byte-compiled and optimised Python files
+*.pyo
+*.pyc
+__pycache__/
+
+# Ignore local environment files
+.env
+
+alloydb-auth-proxy
+ash_llm_env
