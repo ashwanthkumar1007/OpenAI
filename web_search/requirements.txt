@@ -1,0 +1,7 @@
+langchain==0.0.200
+langchain-ollama==0.1.0
+langchain-community==0.0.2
+streamlit==1.22.0
+faiss-cpu==1.7.3  # or faiss-gpu if using GPU support
+tiktoken==0.3.1    # Required for tokenization (if using GPT models)
+beautifulsoup4==4.12.2  # for parsing HTML
